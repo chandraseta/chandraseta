@@ -1,0 +1,12 @@
+name: sandbox
+channels:
+  - defaults
+dependencies:
+  - pip=20.2.1
+  - python=3.6.13
+  - pip:
+    - jupyter==1.0.0
+    - matplotlib==3.3.4
+    - numpy==1.19.5
+    - pandas==1.1.5
+
