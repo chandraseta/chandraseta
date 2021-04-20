@@ -3,10 +3,20 @@ channels:
   - defaults
 dependencies:
   - pip=20.2.1
-  - python=3.6.13
+  - python=3.8.8
   - pip:
+    - fastai==2.3.0
+    - flask==1.1.2
     - jupyter==1.0.0
     - matplotlib==3.3.4
+    - nltk==3.6.1
     - numpy==1.19.5
     - pandas==1.1.5
+    - praw==7.2.0
+    - rasa==2.5.0
+    - requests==2.25.1
+    - scikit-learn==0.24.1
+    - tensorflow==2.4.1
+    - torch==1.8.1
+    - transformers==4.5.1
 
