@@ -13,6 +13,8 @@ call plug#end()
 
 
 " Custom Command
+command Copyall :%w !pbcopy
+
 "" Coding
 command Code :Goyo|syntax on|set relativenumber
 
