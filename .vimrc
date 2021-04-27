@@ -1,9 +1,14 @@
+" Run the following commands on first run
+" :source %
+" :PlugInstall
+
 set nocompatible
 
 " Plug Plugins
 call plug#begin('~/.vim/plugged')
   Plug 'junegunn/goyo.vim' 
   Plug 'junegunn/limelight.vim'
+  Plug 'morhetz/gruvbox'
   Plug 'preservim/nerdtree'
   Plug 'reedes/vim-pencil'
   Plug 'tpope/vim-surround'
@@ -32,6 +37,7 @@ let g:pencil#wrapModeDefault = 'soft'
 " Default Command
 colorscheme gruvbox
 set backspace=indent,eol,start
+set background=dark
 set cul
 set display+=lastline
 set encoding=utf-8
